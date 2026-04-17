@@ -1,3 +1,6 @@
+:root{
+	--cor-btn: #00826D;
+}
 body{
 	background-color: white;
 }
@@ -5,7 +8,14 @@ body{
 .nav-item {
 	font-weight: 600;
 }
-
+.btn-outline-success {
+	background-color: white;
+}
+.btn{
+	padding: 10px;
+	border-radius: 15px;
+	justify-content: center;
+}
 .gda_login {
 	color: #14AE5C;
 	font-weight: 600;
@@ -13,15 +23,27 @@ body{
 	text-decoration: none;
 }
 
-.gda_button_access{
-	background-color: #00826D
+.gda_cor_btn{
+	background-color: var(--cor-btn);
 }
 .gda_bg{
-	padding-top: 5em;
+	padding: 5% 0;
+	background-image: linear-gradient(
+  to right, 
+  rgba(20, 174, 92, 0.2), 
+  rgba(52, 167, 137, 0.2), 
+  rgba(186, 197, 222, 0.2)
+);
 }
-.gda_services{
-	display: block;
-	align-items: center;
-	border: 1px solid;
-
+.gda_services {
+    display: grid;
+    place-items: center; 
+    background-color: #fff;
+	padding: 10px;
+	padding-top: 1em;
+	border-radius: 15px;
+	text-align: center;
+	height: 319px;
+	width: 432px;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.25);
 }

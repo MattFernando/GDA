@@ -35,7 +35,7 @@
         <div class="nav-item me-3 gda_login">
           <a class="nav-link" href="#">Entrar</a>
         </div>
-        <a class="btn btn-success gda_button_access">Solicitar demonstração</a>
+        <a class="btn btn-success gda_cor_bt">Solicitar demonstração</a>
       </div>
     </div>
   </div>
@@ -47,7 +47,7 @@
 			<div class="col-6">
 				<h1>Gestão Completa da Documentação de Processos Aduaneiros</h1>
 				<p>Centralize documentos de importação e exportação em uma unica plataforma. Simplifique sua operação e acompanhe processos em tempo real.</p>
-				<a class="btn btn-success gda_button_access d-inline-flex align-items-center gap-2">Comece Agora<i class="fa-solid fa-arrow-right"></i></a>
+				<a class="btn btn-success gda_cor_btn d-inline-flex align-items-center gap-2">Comece Agora<i class="fa-solid fa-arrow-right"></i></a>
 				<a class="btn btn-outline-success">Saiba Mais</a>
 			</div>
 
