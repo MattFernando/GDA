@@ -47,9 +47,11 @@
     <article class="container">
       <div class="row">
         <div class="col col-bg-6 col-md-6 col-sm-12">
-          <h1>Gestão Completa da Documentação de Processos Aduaneiros</h1>
-          <p>Centralize documentos de importação e exportação em uma unica plataforma. Simplifique sua operação e acompanhe processos em tempo real.</p>
-          <a class="btn btn-success gda_cor_btn d-inline-flex align-items-center gap-2">Comece Agora<i class="fa-solid fa-arrow-right"></i></a>
+          <h1 class=" display-5 fw-bold text-dark gda_title_home">Gestão Completa da Documentação de Processos Aduaneiros</h1>
+
+          <p class="lead">Centralize documentos de importação e exportação em uma unica plataforma. Simplifique sua operação e acompanhe processos em tempo real.</p>
+
+          <a class="btn btn-success gda_cor_btn d-inline-flex align-items-center gap-2" id="comeceagr">Comece Agora<i class="fa-solid fa-arrow-right"></i></a>
           <a class="btn btn-outline-success">Saiba Mais</a>
         </div>
 
@@ -62,10 +64,7 @@
           </div>
         </div>
       </div>
-
-
     </article>
-
   </div>
 
 
