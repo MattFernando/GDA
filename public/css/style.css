@@ -47,9 +47,18 @@ body{
 	color: #14AE5C !important;
 	font-size: 3rem;           
     font-weight: 700;         
-              
     line-height: 1.2;          
     margin-bottom: 20px;       
-    text-transform: capitalize;
 }
-
+#gda_color_1{
+	color: #FF990B;
+}
+#gda_color_2{
+	color: #2563EB;
+}
+#gda_color_3{
+	color: #E4E402;
+}
+#gda_color_4{
+	color: #FF0000;
+}

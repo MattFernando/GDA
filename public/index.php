@@ -37,7 +37,7 @@
           <div class="nav-item me-3 gda_login">
             <a class="nav-link" href="#">Entrar</a>
           </div>
-          <a class="btn btn-success gda_cor_bt">Solicitar demonstração</a>
+          <a class="btn btn-success gda_cor_btn">Solicitar demonstração</a>
         </div>
       </div>
     </div>
@@ -47,7 +47,7 @@
     <article class="container">
       <div class="row">
         <div class="col col-bg-6 col-md-6 col-sm-12">
-          <h1 class=" display-5 fw-bold text-dark gda_title_home">Gestão Completa da Documentação de Processos Aduaneiros</h1>
+          <h1 class="display-5 fw-bold text-dark gda_title_home">Gestão Completa da Documentação de Processos Aduaneiros</h1>
 
           <p class="lead">Centralize documentos de importação e exportação em uma unica plataforma. Simplifique sua operação e acompanhe processos em tempo real.</p>
 
@@ -55,12 +55,12 @@
           <a class="btn btn-outline-success">Saiba Mais</a>
         </div>
 
-        <div class="col col-bg-6 col-md-6 col-sm-12 d-flex flex-column align-items-center justify-content-center">
+        <div class="col col-bg-6 col-md-6 col-sm-12 d-flex flex-column align-items-center justify-content-center text-align-left">
           <div class="gda_services">
-            <p class=""><i class="fa-regular fa-circle-check" style="color: #FF990B;"></i> Processos 100% digitalizados</p>
-            <p class=""><i class="fa-regular fa-circle-check" style="color: #2563EB;"></i> Processos 100% digitalizados</p>
-            <p class=""><i class="fa-regular fa-circle-check" style="color: #E4E402"></i> Processos 100% digitalizados</p>
-            <p class=""><i class="fa-regular fa-circle-check" style="color: #FF0000;"></i> Processos 100% digitalizados</p>
+            <p><i class="fa-regular fa-circle-check" id="gda_color_1" ></i> Processos 100% digitalizados</p>
+            <p><i class="fa-regular fa-circle-check" id="gda_color_2"></i> Atualizações de status dos processos</p>
+            <p><i class="fa-regular fa-circle-check" id="gda_color_3" ></i> Gestão de Multiplas Empresas</p>
+            <p><i class="fa-regular fa-circle-check" id="gda_color_4" ></i> Sistema Hierarquico</p>
           </div>
         </div>
       </div>
