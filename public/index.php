@@ -72,6 +72,15 @@
   </article>
 </div>
 
+<div class="container">
+  
+  <section class="gda_color_bg mt-5 mb-5 p-5 text-center">
+    <h2 class="gda_title_home">Serviços Completos</h2>
+    <p class="lead">Tudo o que você precisa em uma unica plataforma</p>
+  </section>
+
+</div>
+
 
 
   <footer>
