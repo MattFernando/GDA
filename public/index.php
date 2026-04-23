@@ -43,29 +43,34 @@
     </div>
   </nav>
 
-  <div class="container-fluid gda_bg">
-    <article class="container">
-      <div class="row">
-        <div class="col col-bg-6 col-md-6 col-sm-12">
-          <h1 class="display-5 fw-bold text-dark gda_title_home">Gestão Completa da Documentação de Processos Aduaneiros</h1>
+ <div class="container-fluid gda_bg">
+  <article class="container">
+    <div class="row align-items-center">
 
-          <p class="lead">Centralize documentos de importação e exportação em uma unica plataforma. Simplifique sua operação e acompanhe processos em tempo real.</p>
-
-          <a class="btn btn-success gda_cor_btn d-inline-flex align-items-center gap-2" id="comeceagr">Comece Agora<i class="fa-solid fa-arrow-right"></i></a>
+      <div class="col-lg-7 col-md-12">
+        <h1 class="display-5 fw-bold text-dark gda_title_home">
+          Gestão Completa da Documentação de Processos Aduaneiros
+        </h1>
+        <p class="lead">
+          Centralize documentos de importação e exportação em uma única plataforma.
+          Simplifique sua operação e acompanhe processos em tempo real.
+        </p>
+        <div class="d-flex gap-2 flex-wrap">
+          <a class="btn btn-success gda_cor_btn d-inline-flex align-items-center gap-2" id="comeceagr">
+            Comece Agora <i class="fa-solid fa-arrow-right"></i>
+          </a>
           <a class="btn btn-outline-success">Saiba Mais</a>
         </div>
-
-        <div class="col col-bg-6 col-md-6 col-sm-12 d-flex flex-column align-items-center justify-content-center text-align-left">
-          <div class="gda_services">
-            <p><i class="fa-regular fa-circle-check" id="gda_color_1" ></i> Processos 100% digitalizados</p>
-            <p><i class="fa-regular fa-circle-check" id="gda_color_2"></i> Atualizações de status dos processos</p>
-            <p><i class="fa-regular fa-circle-check" id="gda_color_3" ></i> Gestão de Multiplas Empresas</p>
-            <p><i class="fa-regular fa-circle-check" id="gda_color_4" ></i> Sistema Hierarquico</p>
-          </div>
-        </div>
       </div>
-    </article>
-  </div>
+      <div class="col-lg-5 col-md-12 d-flex flex-column align-items-start justify-content-center gda_services gap-3 mt-4 mt-lg-0 mx-auto">
+        <p class="ps-5"><i class="fa-regular fa-circle-check" id="gda_color_1"></i> Processos 100% digitalizados</p>
+        <p class="ps-5"><i class="fa-regular fa-circle-check" id="gda_color_2"></i> Atualizações de status dos processos</p>
+        <p class="ps-5"><i class="fa-regular fa-circle-check" id="gda_color_3"></i> Gestão de Múltiplas Empresas</p>
+        <p class="ps-5"><i class="fa-regular fa-circle-check" id="gda_color_4"></i> Sistema Hierárquico</p>
+      </div>
+    </div>
+  </article>
+</div>
 
 
 
