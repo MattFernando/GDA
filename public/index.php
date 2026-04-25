@@ -35,9 +35,9 @@
 
         <div class="d-flex align-items-center">
           <div class="nav-item me-3 gda_login">
-            <a class="nav-link" href="#">Entrar</a>
+            <a class="nav-link" href="mf/login.php">Entrar</a>
           </div>
-          <a class="btn btn-success gda_cor_btn">Solicitar demonstração</a>
+          <a class="btn btn-success gda_cor_btn" href="mf/registro.php">Solicitar demonstração</a>
         </div>
       </div>
     </div>
