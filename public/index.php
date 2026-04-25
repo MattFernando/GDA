@@ -47,7 +47,7 @@
     <article class="container">
       <div class="row align-items-center">
 
-        <div class="col-lg-7 col-md-12">
+        <div class="col-lg-7 col-md-12 col-sm-12">
           <h1 class="display-5 fw-bold text-dark gda_title_home">
             Gestão Completa da Documentação de Processos Aduaneiros
           </h1>
@@ -62,7 +62,7 @@
             <a class="btn btn-outline-success">Saiba Mais</a>
           </div>
         </div>
-        <div class="col-lg-5 col-md-12 d-flex flex-column align-items-start justify-content-center gda_services gap-3 mt-4 mt-lg-0 mx-auto">
+        <div class="col-lg-5 col-md-12 col-sm-12 d-flex flex-column align-items-start justify-content-center gda_services gap-3 mt-4 mt-lg-0 mx-auto">
           <p class="ps-5"><i class="fa-regular fa-circle-check" id="gda_color_1"></i> Processos 100% digitalizados</p>
           <p class="ps-5"><i class="fa-regular fa-circle-check" id="gda_color_2"></i> Atualizações de status dos processos</p>
           <p class="ps-5"><i class="fa-regular fa-circle-check" id="gda_color_3"></i> Gestão de Múltiplas Empresas</p>
@@ -81,45 +81,98 @@
     </div>
 
 
-    <div class="row">
-      <section class="col col-3 gda_services_card" style="--corVariavel: #2563EB">
+    <div class="row gda_servicos_completos">
+      <section class="col col-lg-3 col-md-12 col-sm-12 gda_services_card" style="--corVariavel: #2563EB">
         <img src="../assets/img/Importar.png" class="gda_icon_home" alt="...">
         <h5 class="gda_services_card_title">Importação</h5>
         <p class="card-text">Gestão completa de processos de importação com controle de documentos e prazos</p>
       </section>
-      <section class="col col-3 gda_services_card" style="--corVariavel: #00806a">
+      <section class="col col-lg-3 col-md-12 col-sm-12 gda_services_card" style="--corVariavel: #00806a">
         <img src="../assets/img/Exportar.png" class="gda_icon_home" alt="...">
         <h5 class="gda_services_card_title">Exportação</h5>
         <p class="card-text">Acompanhamento de exportações com validação de documentos</p>
       </section>
-      <section class="col col-3 gda_services_card" style="--corVariavel: #FFCD29">
+      <section class="col col-lg-3 col-md-12 col-sm-12 gda_services_card" style="--corVariavel: #FFCD29">
         <img src="../assets/img/Banco.png" class="gda_icon_home" alt="...">
         <h5 class="gda_services_card_title">Armazenamento</h5>
         <p class="card-text">Controle digital de armazenagem e movimentação de cargas</p>
       </section>
-      <section class="col col-3 gda_services_card" style="--corVariavel: #FF0000">
+      <section class="col col-lg-3 col-md-12 col-sm-12 gda_services_card" style="--corVariavel: #FF0000">
         <img src="../assets/img/Pessoa.png" class="gda_icon_home" alt="...">
         <h5 class="gda_services_card_title">Consultoria</h5>
         <p class="card-text">Suporte especializado para otimizar suas operações aduaneiras</p>
       </section>
     </div>
-
-
-  
-
-
   </div>
 
+  <div class="container-fluid cotacao">
+    <section class="container">
+      <div class="row">
+        <div>
+          <h2>Cotação em Tempo Real</h2>
+          <p class="lead"> Acompanhe aqui as principais moedas para suas operações</p>
+        </div>
+      </div>
+      <div class="cotacao-valores">
+      <div class="row">
+        <div class="col col-2">
+          <div class="gda_cotacao_card">
+            <h5 class="gda_cotacao_title">Dólar - USD</h5>
+            <p class='gda_cotacao_valor'>R$: <?php echo CotacaoAtual('USD-BRL'); ?></p>
+          </div>
+        </div>
+        
+        <div class="col col-2">
+          <div class="gda_cotacao_card">
+            <h5 class="gda_cotacao_title">Euro - EUR</h5>
+            <p class='gda_cotacao_valor'>R$: <?php echo CotacaoAtual('EUR-BRL'); ?></p>
+          </div>
+        </div>
+
+<?php 
+  /*
+        <div class="col col-2">
+          <div class="gda_cotacao_card">
+            <h5 class="gda_cotacao_title">Guaranies - Gs</h5>
+            <p class='gda_cotacao_valor'>R$: <?php echo CotacaoAtualGuarani('PYGBRL'); ?></p>
+          </div>
+        </div>
+
+        <div class="col col-2">
+          <div class="gda_cotacao_card">
+            <h5 class="gda_cotacao_title">Libras Esterfinas - GBP</h5>
+            <p class='gda_cotacao_valor'>R$: <?php echo CotacaoAtual('GBPBRL'); ?> ?></p>
+          </div>
+        </div>
+
+        <div class="col col-2">
+          <div class="gda_cotacao_card">
+            <h5 class="gda_cotacao_title">Dolar Canadense</h5>
+            <p class='gda_cotacao_valor'>R$: <?php echo CotacaoAtual('CADBRL'); ?></p>
+          </div>
+        </div>
+*/
+      ?>
+      </div>
+      </div>
+      
+        </section>
+    </div>
 
 
-  <footer>
 
 
 
 
 
-    <?php include 'includes/footer.php'; ?>
-  </footer>
+    <footer>
+
+
+
+
+
+      <?php include 'includes/footer.php'; ?>
+    </footer>
 
 
 </body>
