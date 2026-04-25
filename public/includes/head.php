@@ -13,4 +13,5 @@
         $caminho = '../' . $caminho;
     }
     require_once $caminho;
+    //aloooooo
 ?>
