@@ -43,43 +43,72 @@
     </div>
   </nav>
 
- <div class="container-fluid gda_bg">
-  <article class="container">
-    <div class="row align-items-center">
+  <div class="container-fluid gda_bg">
+    <article class="container">
+      <div class="row align-items-center">
 
-      <div class="col-lg-7 col-md-12">
-        <h1 class="display-5 fw-bold text-dark gda_title_home">
-          Gestão Completa da Documentação de Processos Aduaneiros
-        </h1>
-        <p class="lead">
-          Centralize documentos de importação e exportação em uma única plataforma.
-          Simplifique sua operação e acompanhe processos em tempo real.
-        </p>
-        <div class="d-flex gap-2 flex-wrap">
-          <a class="btn btn-success gda_cor_btn d-inline-flex align-items-center gap-2" id="comeceagr">
-            Comece Agora <i class="fa-solid fa-arrow-right"></i>
-          </a>
-          <a class="btn btn-outline-success">Saiba Mais</a>
+        <div class="col-lg-7 col-md-12">
+          <h1 class="display-5 fw-bold text-dark gda_title_home">
+            Gestão Completa da Documentação de Processos Aduaneiros
+          </h1>
+          <p class="lead gda_descricao_home">
+            Centralize documentos de importação e exportação em uma única plataforma.
+            Simplifique sua operação e acompanhe processos em tempo real.
+          </p>
+          <div class="d-flex gap-2 flex-wrap">
+            <a class="btn btn-success gda_cor_btn d-inline-flex align-items-center gap-2" id="comeceagr">
+              Comece Agora <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a class="btn btn-outline-success">Saiba Mais</a>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 d-flex flex-column align-items-start justify-content-center gda_services gap-3 mt-4 mt-lg-0 mx-auto">
+          <p class="ps-5"><i class="fa-regular fa-circle-check" id="gda_color_1"></i> Processos 100% digitalizados</p>
+          <p class="ps-5"><i class="fa-regular fa-circle-check" id="gda_color_2"></i> Atualizações de status dos processos</p>
+          <p class="ps-5"><i class="fa-regular fa-circle-check" id="gda_color_3"></i> Gestão de Múltiplas Empresas</p>
+          <p class="ps-5"><i class="fa-regular fa-circle-check" id="gda_color_4"></i> Sistema Hierárquico</p>
         </div>
       </div>
-      <div class="col-lg-5 col-md-12 d-flex flex-column align-items-start justify-content-center gda_services gap-3 mt-4 mt-lg-0 mx-auto">
-        <p class="ps-5"><i class="fa-regular fa-circle-check" id="gda_color_1"></i> Processos 100% digitalizados</p>
-        <p class="ps-5"><i class="fa-regular fa-circle-check" id="gda_color_2"></i> Atualizações de status dos processos</p>
-        <p class="ps-5"><i class="fa-regular fa-circle-check" id="gda_color_3"></i> Gestão de Múltiplas Empresas</p>
-        <p class="ps-5"><i class="fa-regular fa-circle-check" id="gda_color_4"></i> Sistema Hierárquico</p>
-      </div>
+    </article>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <section class="gda_color_bg mt-5 mb-5 p-2 text-center">
+        <h2 class="gda_subtitle_home">Serviços Completos</h2>
+        <p class="lead">Tudo o que você precisa em uma unica plataforma</p>
+      </section>
     </div>
-  </article>
-</div>
 
-<div class="container">
+
+    <div class="row">
+      <section class="col col-3 gda_services_card" style="--corVariavel: #2563EB">
+        <img src="../assets/img/Importar.png" class="gda_icon_home" alt="...">
+        <h5 class="gda_services_card_title">Importação</h5>
+        <p class="card-text">Gestão completa de processos de importação com controle de documentos e prazos</p>
+      </section>
+      <section class="col col-3 gda_services_card" style="--corVariavel: #00806a">
+        <img src="../assets/img/Exportar.png" class="gda_icon_home" alt="...">
+        <h5 class="gda_services_card_title">Exportação</h5>
+        <p class="card-text">Acompanhamento de exportações com validação de documentos</p>
+      </section>
+      <section class="col col-3 gda_services_card" style="--corVariavel: #FFCD29">
+        <img src="../assets/img/Banco.png" class="gda_icon_home" alt="...">
+        <h5 class="gda_services_card_title">Armazenamento</h5>
+        <p class="card-text">Controle digital de armazenagem e movimentação de cargas</p>
+      </section>
+      <section class="col col-3 gda_services_card" style="--corVariavel: #FF0000">
+        <img src="../assets/img/Pessoa.png" class="gda_icon_home" alt="...">
+        <h5 class="gda_services_card_title">Consultoria</h5>
+        <p class="card-text">Suporte especializado para otimizar suas operações aduaneiras</p>
+      </section>
+    </div>
+
+
   
-  <section class="gda_color_bg mt-5 mb-5 p-5 text-center">
-    <h2 class="gda_title_home">Serviços Completos</h2>
-    <p class="lead">Tudo o que você precisa em uma unica plataforma</p>
-  </section>
 
-</div>
+
+  </div>
 
 
 

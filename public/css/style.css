@@ -1,5 +1,6 @@
 :root{
-	--cor-btn: #00826D;
+	--corVariavel: (#fff);
+	--cor-btn: rgb(0, 128, 106);
 }
 body{
 	background-color: white;
@@ -22,6 +23,12 @@ body{
 	margin: 0 15px;
 	text-decoration: none;
 }
+.gda_descricao_home{
+	color: #1e1e1e!important;
+	font-size: 16px;                    
+	line-height: 30px;          
+	margin-bottom: 20px;       
+}
 
 .gda_cor_btn{
 	background-color: var(--cor-btn);
@@ -42,11 +49,12 @@ body{
   max-width: 432px;
   width: 100%;
   height: 319px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+  box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  font-weight: 600;
   
 }
 .gda_title_home{
@@ -56,18 +64,58 @@ body{
     line-height: 1.2;          
     margin-bottom: 20px;       
 }
+.gda_subtitle_home{
+	color: #009966!important;
+	font-size: 2.5rem;           
+	font-weight: 700;         
+	line-height: 1.2;          
+	margin-bottom: 20px;       
+}
 #gda_color_1{
 	color: #FF990B;
+	width: 24px;
+	height: 24px;
 }
 #gda_color_2{
 	color: #2563EB;
+	width: 24px;
+	height: 24px;
 }
 #gda_color_3{
 	color: #E4E402;
+	width: 24px;
+	height: 24px;
 }
 #gda_color_4{
 	color: #FF0000;
+	width: 24px;
+	height: 24px;
 }
 .gda_color_bg{
 	background-color: #fff;
+}
+.gda_services_card{
+	text-align: center;
+	border: 2px solid color-mix(in srgb, var(--corVariavel), transparent 80%);
+	border-radius: 15px;
+	padding: 30px;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.gda_services_card:hover{
+	border: 2px solid var(--corVariavel);
+	box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.3);
+	transition: all 0.3s ease-in-out;
+}
+
+.gda_icon_home{
+	width: 50px;
+	height: 50px;
+	margin: 15px auto
+}
+.gda_services_card_title{
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #000;
 }
