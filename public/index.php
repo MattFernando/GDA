@@ -114,48 +114,48 @@
         </div>
       </div>
       <div class="cotacao-valores">
-      <div class="row">
-        <div class="col col-2">
-          <div class="gda_cotacao_card">
-            <h5 class="gda_cotacao_title">Dólar - USD</h5>
-            <p class='gda_cotacao_valor'>R$: <?php echo CotacaoAtual('USD-BRL'); ?></p>
+        <div class="row">
+          <div class="col col-2">
+            <div class="gda_cotacao_card">
+              <h5 class="gda_cotacao_title">Dólar - USD</h5>
+              <p class='gda_cotacao_valor'>R$: <?php echo CotacaoAtual('USD-BRL'); ?></p>
+            </div>
           </div>
-        </div>
-        
-        <div class="col col-2">
-          <div class="gda_cotacao_card">
-            <h5 class="gda_cotacao_title">Euro - EUR</h5>
-            <p class='gda_cotacao_valor'>R$: <?php echo CotacaoAtual('EUR-BRL'); ?></p>
+
+          <div class="col col-2">
+            <div class="gda_cotacao_card">
+              <h5 class="gda_cotacao_title">Euro - EUR</h5>
+              <p class='gda_cotacao_valor'>R$: <?php echo CotacaoAtual('EUR-BRL'); ?></p>
+            </div>
           </div>
-        </div>
 
 
-        <div class="col col-2">
-          <div class="gda_cotacao_card">
-            <h5 class="gda_cotacao_title">Guaranies - Gs</h5>
-            <p class='gda_cotacao_valor'>R$: <?php echo CotacaoAtual('PYG-BRL'); ?></p>
+          <div class="col col-2">
+            <div class="gda_cotacao_card">
+              <h5 class="gda_cotacao_title">Guaranies - Gs</h5>
+              <p class='gda_cotacao_valor'>R$: <?php echo CotacaoAtual('PYG-BRL'); ?></p>
+            </div>
           </div>
-        </div>
 
-        <div class="col col-2">
-          <div class="gda_cotacao_card">
-            <h5 class="gda_cotacao_title">Libras Esterfinas - GBP</h5>
-            <p class='gda_cotacao_valor'>R$: <?php echo CotacaoAtual('GBP-BRL'); ?></p>
+          <div class="col col-2">
+            <div class="gda_cotacao_card">
+              <h5 class="gda_cotacao_title">Libras Esterfinas - GBP</h5>
+              <p class='gda_cotacao_valor'>R$: <?php echo CotacaoAtual('GBP-BRL'); ?></p>
+            </div>
           </div>
-        </div>
 
-        <div class="col col-2">
-          <div class="gda_cotacao_card">
-            <h5 class="gda_cotacao_title">Dolar Canadense</h5>
-            <p class='gda_cotacao_valor'>R$: <?php echo CotacaoAtual('CAD-BRL'); ?></p>
+          <div class="col col-2">
+            <div class="gda_cotacao_card">
+              <h5 class="gda_cotacao_title">Dolar Canadense</h5>
+              <p class='gda_cotacao_valor'>R$: <?php echo CotacaoAtual('CAD-BRL'); ?></p>
+            </div>
           </div>
-        </div>
 
+        </div>
       </div>
-      </div>
-      
-        </section>
-    </div>
+
+    </section>
+  </div>
 
 
 
@@ -166,9 +166,9 @@
 
 
 
-    <footer>
-      <?php include 'includes/footer.php'; ?>
-    </footer>
+  <footer>
+    <?php include 'includes/footer.php'; ?>
+  </footer>
 
 
 </body>
