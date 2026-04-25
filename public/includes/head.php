@@ -14,4 +14,5 @@
     }
     require_once $caminho;
     //aloooooo
+    echo "ALOOOOOOO"
 ?>
