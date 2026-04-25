@@ -133,7 +133,7 @@
         <div class="col col-2">
           <div class="gda_cotacao_card">
             <h5 class="gda_cotacao_title">Guaranies - Gs</h5>
-            <p class='gda_cotacao_valor'>R$: <?php echo CotacaoAtualGuarani('PYG-BRL'); ?></p>
+            <p class='gda_cotacao_valor'>R$: <?php echo CotacaoAtual('PYG-BRL'); ?></p>
           </div>
         </div>
 
@@ -163,12 +163,10 @@
 
 
 
+
+
+
     <footer>
-
-
-
-
-
       <?php include 'includes/footer.php'; ?>
     </footer>
 

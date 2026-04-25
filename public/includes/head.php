@@ -7,7 +7,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 <link rel="stylesheet" href="css/style.css">
 
-
 <?php 
     require_once '../app/helpers/helper.php';
 ?>
